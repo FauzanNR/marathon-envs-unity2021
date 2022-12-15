@@ -47,7 +47,6 @@ behaviors:
     trainer_type: ppo
     hyperparameters:
       num_epoch: 3
-      gamma: 0.97
       beta: .00001
       epsilon: 0.2
       lambd: 0.95
